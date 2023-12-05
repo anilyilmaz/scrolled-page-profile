@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import TwitterProfile
+import ScrolledPageProfile
 
 class BottomPageContainerViewController: UIViewController, PagerAwareProtocol{
 

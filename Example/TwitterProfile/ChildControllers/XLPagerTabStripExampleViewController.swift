@@ -23,7 +23,7 @@
 // THE SOFTWARE.
 
 import UIKit
-import TwitterProfile
+import ScrolledPageProfile
 import XLPagerTabStrip
 
 class XLPagerTabStripExampleViewController: ButtonBarPagerTabStripViewController, PagerAwareProtocol {

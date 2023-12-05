@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import TwitterProfile
+import ScrolledPageProfile
 
 class ViewController : UIViewController, UIScrollViewDelegate, TPDataSource, TPProgressDelegate {
     
@@ -23,20 +23,20 @@ class ViewController : UIViewController, UIScrollViewDelegate, TPDataSource, TPP
         self.tp_configure(with: self, delegate: self)
         
     }
-    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         navigationController?.setNavigationBarHidden(true, animated: false)
     }
-    
+
     @objc func handleRefreshControl() {
         print("refreshing")
         DispatchQueue.main.asyncAfter(deadline: .now()+1) {
             self.refresh.endRefreshing()
         }
     }
-    
+
     override var preferredStatusBarStyle: UIStatusBarStyle{
         return .lightContent
     }

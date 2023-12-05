@@ -1,9 +1,9 @@
-# TwitterProfile
+# ScrolledPageView
+## This is a fork of https://github.com/OfTheWolf/TwitterProfile with the goal of updating this amazing feature to up to date with modern SwiftPackageManager
 
-[![CI Status](https://img.shields.io/travis/OfTheWolf/TwitterProfile.svg?style=flat)](https://travis-ci.org/OfTheWolf/TwitterProfile)
-[![Version](https://img.shields.io/cocoapods/v/TwitterProfile.svg?style=flat)](https://cocoapods.org/pods/TwitterProfile)
 [![License](https://img.shields.io/cocoapods/l/TwitterProfile.svg?style=flat)](https://cocoapods.org/pods/TwitterProfile)
 [![Platform](https://img.shields.io/cocoapods/p/TwitterProfile.svg?style=flat)](https://cocoapods.org/pods/TwitterProfile)
+<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift5-compatible-4BC51D.svg?style=flat" alt="Swift 5 compatible" /></a>
 
 Easily create screens like Instagram and Twitter profile. Example project shows Twitter case but you can change header and bottom view controllers easily to mimic instagram or similar UIs. 
 
@@ -11,26 +11,18 @@ Easily create screens like Instagram and Twitter profile. Example project shows 
 
 ![Demo](https://github.com/OfTheWolf/TwitterProfile/blob/master/demo.gif)
 
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
-## Installation
-
-TwitterProfile is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'TwitterProfile'
-```
+- Swift Package Manager
 
 ## Author
 
-uğur, uguboz@gmail.com
+uğur, uguboz@gmail.com -> TwitterProfile
 
 ## License
 
-TwitterProfile is available under the MIT license. See the LICENSE file for more info.
+TwitterProfile, ScrolledPageProfile is available under the MIT license. See the LICENSE file for more info.

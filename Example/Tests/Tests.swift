@@ -1,5 +1,5 @@
 import XCTest
-import TwitterProfile
+import ScrolledPageProfile
 
 class Tests: XCTestCase {
     
